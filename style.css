@@ -1,0 +1,72 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 40px;
+}
+.twitter{
+   background-color: white;
+   border: 1px solid black;
+   width: 30%;
+   padding: 20px;
+   text-align: center;
+
+
+}
+.instagram{
+    background-color: white;
+    color: white;
+    border: 1px solid rgb(246, 72, 101);
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(246, 72, 101);
+    
+   
+    
+    
+}
+.youtube{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+}
+.instagram p{
+    color: white;
+}
+.fa-brands{
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.read-more{
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px 50px;
+}
+.youtube .read-more{
+    color: white;
+    background-color: black;
+}
+.instagram .read-more{
+    color: red;
+    border: 1px solid rgb(246, 72, 101);
+}
+
+.twitter .read-more{
+    color: white;
+    background-color: black;
+}
+
